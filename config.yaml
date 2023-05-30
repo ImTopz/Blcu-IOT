@@ -19,4 +19,4 @@ host: #EMQX提供的port
 
 
 msg: #手机推送的sendkey
-  SendKey: SCT205285T3mGqMIoLqHnRXYF1Ch2FRaJV
+  SendKey: KEY
