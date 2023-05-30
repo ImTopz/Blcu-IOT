@@ -4,7 +4,7 @@
 
 
 ### 一、本项目的架构图如下：
-![](SmartAgri-领航助农“智”平台.png)
+![](Docs/SmartAgri-领航助农“智”平台.png)
 
 ### 二、项目实现
 **项目实现大致思路如下：**
@@ -32,16 +32,22 @@
 |—GetData.py       # 数据库驱动程序的封装
 |—init.sh          # 数据库建设脚本
 |—README.md     # 项目手册
-1.首先需要确保本地环境已经安装Mysql、EMQX、Python3.6-3.8、Vue等项目所需的基础环境。
-2.首先需要启动emqxMQTT服务器，启动指令是 ./bin/emqx start （这里的./必须应当是emqx所在的目录）
+1.首先需要确保本地环境已经安装Mysql、EMQX、Python3.6-3.8、Vue等项目所需的基础环境。 
+
+2.首先需要启动emqxMQTT服务器，启动指令是 ./bin/emqx start （这里的./必须应当是emqx所在的目录） 
+
 3.采用物理机安装Mysql，首先需要启动Mysql数据库，mysql建表脚本已封装为bash脚本，需要将数据库用户名设置为root,密码为123456，端口为3306，数据库名为agriculture,设置好之后可以通过bash init.sh进行快速建表。
+
 4.成功启动完成EMQX和Mysql并且建好表之后，进入项目的src目录下，依次运行fronted.py与backend.py两个脚本文件，该脚本实现了前端传感器的模拟以及向数据库中上传传感器监测到的数据这一操作，指令分别为python3 fronted.py 和 python3 backen.py。
 如果控制台输出 
+
 “接收到传感器编号为 sensor3 的温度数据，温度为: temperature = 26 °C,更新时间是 2023-04-08 17:08:52
 [+]记录成功” 
  样式的文本，则视作启动成功。至此传感器端启动完成。
+
 5.运行app.py启动后端，输入python3 app.py启动后端，运行成功后控制台输出
 * Running on http://127.0.0.1:5000 (Press CTRL+C to quit) ，若出现以上字样，则表示启动成功。
+* 
 6.进入./src/Fronted/目录下，输入指令npm run serve，启动前端，若控制台输出
   App running at:
   - Local:   http://localhost:8080/
@@ -58,4 +64,4 @@
 
 
 
-**本人的观点是这个比赛非常水，评奖机制很玄幻，且含金量低，不建议参加**
+**本人的观点是这个比赛非常水，评奖机制很玄幻，且含金量低，不建议参加,有时间不如参加一下软件杯，智能车，ACM或者CTF这种含金量较高且相对公平一些的比赛，仅个人想法**
