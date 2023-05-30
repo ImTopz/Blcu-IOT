@@ -1,0 +1,22 @@
+db:
+  mysql: #mysql的
+    host: localhost
+    port: 3306
+    username : root
+    password : 123456
+    db: agriculture
+  redis:
+    db1 : 1
+    db2 : 2
+    host : localhost
+    port : 6379
+
+
+
+host: #EMQX提供的port
+  ip: 127.0.0.1
+  port: 1883
+
+
+msg: #手机推送的sendkey
+  SendKey: SCT205285T3mGqMIoLqHnRXYF1Ch2FRaJV
