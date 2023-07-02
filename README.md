@@ -55,8 +55,16 @@
 则表示前端启动，此时打开浏览器，访问 http://localhost:8080/#/login则可成功进入项目主页面，默认账号密码为admin/admin
 本项目已实现服务器部署，访问链接： http://43.143.246.73:8000/#/login
 
+项目实现照片：
+![image](https://github.com/ImTopz/Blcu-IOT/assets/80200569/f93e3ed4-5dc3-43d8-8b33-9d8bb512915e)
 
+![a2e3b4887ac47ea5f88445f6061dc90f](https://github.com/ImTopz/Blcu-IOT/assets/80200569/edb9f943-d99e-40c6-97e7-b36e44312232)
 
+![3fd52cc9fe849b3249600f3e9bb879cc_720](https://github.com/ImTopz/Blcu-IOT/assets/80200569/cda7e342-395e-49ba-8ebf-e9922fb5c4ae)
+
+![589a6a36b41eacc4b073470b8d7b101c](https://github.com/ImTopz/Blcu-IOT/assets/80200569/7bf77ab6-e4f3-44b4-9664-8d4a6dbc0b03)
+![image](https://github.com/ImTopz/Blcu-IOT/assets/80200569/dcbc8809-879f-497c-9144-1bc759e806a6)
+<img width="1267" alt="image" src="https://github.com/ImTopz/Blcu-IOT/assets/80200569/d2c101fb-73fc-49ce-a164-2f10c14c6527">
 
 
 
