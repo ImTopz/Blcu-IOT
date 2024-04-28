@@ -32,6 +32,8 @@
 |—GetData.py       # 数据库驱动程序的封装
 |—init.sh          # 数据库建设脚本
 |—README.md     # 项目手册
+
+
 1.首先需要确保本地环境已经安装Mysql、EMQX、Python3.6-3.8、Vue等项目所需的基础环境。 
 
 2.首先需要启动emqxMQTT服务器，启动指令是 ./bin/emqx start （这里的./必须应当是emqx所在的目录） 
@@ -42,12 +44,15 @@
 如果控制台输出 
 
 “接收到传感器编号为 sensor3 的温度数据，温度为: temperature = 26 °C,更新时间是 2023-04-08 17:08:52
+
 [+]记录成功” 
- 样式的文本，则视作启动成功。至此传感器端启动完成。
+
+样式的文本，则视作启动成功。至此传感器端启动完成。
 
 5.运行app.py启动后端，输入python3 app.py启动后端，运行成功后控制台输出
 * Running on http://127.0.0.1:5000 (Press CTRL+C to quit) ，若出现以上字样，则表示启动成功。
-* 
+
+
 6.进入./src/Fronted/目录下，输入指令npm run serve，启动前端，若控制台输出
   App running at:
   - Local:   http://localhost:8080/
